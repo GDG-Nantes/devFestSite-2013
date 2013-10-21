@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#revision 1382173570843   <== A incrementer pour forcer le rechargement des ressources mises en cache
+#revision 1382365705155   <== A incrementer pour forcer le rechargement des ressources mises en cache
 
 CACHE:
 
@@ -133,10 +133,10 @@ NETWORK:
 *
 
 FALLBACK:
-css/app.css css/app.css?ver=1382173570843
-js/app.js js/app.js?ver=1382173570843
-images/sprites/devfest-sprite.png images/sprites/devfest-sprite.png?ver=1382173570843
-images/sprites/speakers-sprite.png images/sprites/speakers-sprite.png?ver=1382173570843
-images/sprites/team-sprite.png images/sprites/team-sprite.png?ver=1382173570843
-images/sprites/technos-sprite.png images/sprites/technos-sprite.png?ver=1382173570843
-images/sprites/sponsors-sprite.png images/sprites/sponsors-sprite.png?ver=1382173570843
+css/app.css css/app.css?ver=1382365705155
+js/app.js js/app.js?ver=1382365705155
+images/sprites/devfest-sprite.png images/sprites/devfest-sprite.png?ver=1382365705155
+images/sprites/speakers-sprite.png images/sprites/speakers-sprite.png?ver=1382365705155
+images/sprites/team-sprite.png images/sprites/team-sprite.png?ver=1382365705155
+images/sprites/technos-sprite.png images/sprites/technos-sprite.png?ver=1382365705155
+images/sprites/sponsors-sprite.png images/sprites/sponsors-sprite.png?ver=1382365705155
