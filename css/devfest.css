@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Average Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/average-sans-webfont.eot);
+  src: local("Average Sans"), local("AverageSans-Regular"), url(../font/average-sans-webfont.eot) format("embedded-opentype"), url(../font/average-sans-webfont.woff) format("woff"), url(../font/average-sans-webfont.ttf) format("truetype");
+}
+
 .devfestngview{
   padding-top: 250px;
 }
