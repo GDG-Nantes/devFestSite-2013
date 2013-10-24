@@ -29,7 +29,7 @@
 			"level" : "101",
 			"time" : "S1",
 			"room" : "TBD",
-			"description" : "Présentation générale de Tizen, le système d'exploitation co-développé par Intel et Samsung, visant principalement le secteur des appareils mobiles.<br>Nous explorerons l'écosystème Tizen et son développement HTML5, son Store."
+			"description" : "Présentation générale de Tizen, le système d'exploitation Open Source cross-plateforme co-développé par Intel et Samsung, visant principalement le secteur des appareils mobiles.<br>Nous explorerons l'écosystème Tizen et son développement HTML5, son Store et ses outils de développement."
 		},
 		{
 			"id" : 2,
