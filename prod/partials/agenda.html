@@ -42,29 +42,29 @@
 	</div>
 	<!-- Matin -->
 	<div class="row pad-bottom">
-		<div class="five sixths mobile">
+		<div class="five sixths mobile two-up-mobile">
 			<div class="row pad-bottom">
 				<!-- Horaire -->
 				<div class="one fifth calendar-time">
 					<h5>{{ times[2].start }} -  {{ times[2].end }}</h5>
 				</div>
-				<div class="one fifth calendar-android calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[2].android.id}}">{{ times[2].android.label }}</a></h5>
+				<div  ng-click="alert('tit');" class="one fifth calendar-android calendar-one-block">
+					<h5><devfeststore session="times[2].android"></devfeststore><a href="#/sessions?sessionId={{times[2].android.id}}">{{ times[2].android.label }}</a></h5>
 					<small>Par {{ times[2].android.speakername }}</small><br>
 					<small>Salle "{{ times[2].android.room }}"</small>
 				</div>
 				<div class="one fifth calendar-html5 calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[2].html5.id}}">{{ times[2].html5.label }}</a></h5>
+					<h5><devfeststore session="times[2].html5"></devfeststore><a href="#/sessions?sessionId={{times[2].html5.id}}">{{ times[2].html5.label }}</a></h5>
 					<small>Par {{ times[2].html5.speakername }}</small><br>
 					<small>Salle "{{ times[2].html5.room }}"</small>
 				</div>
 				<div class="one fifth calendar-cloud calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[2].cloud.id}}">{{ times[2].cloud.label }}</a></h5>
+					<h5><devfeststore session="times[2].cloud"></devfeststore><a href="#/sessions?sessionId={{times[2].cloud.id}}">{{ times[2].cloud.label }}</a></h5>
 					<small>Par {{ times[2].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[2].cloud.room }}"</small>
 				</div>
 				<div class="one fifth calendar-ux calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[2].decouverte.id}}">{{ times[2].decouverte.label }}</a></h5>
+					<h5><devfeststore session="times[2].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[2].decouverte.id}}">{{ times[2].decouverte.label }}</a></h5>
 					<small>Par {{ times[2].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[2].decouverte.room }}"</small>
 				</div>
@@ -76,29 +76,29 @@
 					<h5>{{ times[3].start }} -  {{ times[3].end }}</h5>
 				</div>
 				<div class="one fifth calendar-android calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[3].android.id}}">{{ times[3].android.label }}</a></h5>
+					<h5><devfeststore session="times[3].android"></devfeststore><a href="#/sessions?sessionId={{times[3].android.id}}">{{ times[3].android.label }}</a></h5>
 					<small>Par {{ times[3].android.speakername }}</small><br>
 					<small>Salle "{{ times[3].android.room }}"</small>
 				</div>
 				<div class="one fifth calendar-html5 calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[3].html5.id}}">{{ times[3].html5.label }}</a></h5>
+					<h5><devfeststore session="times[3].html5"></devfeststore><a href="#/sessions?sessionId={{times[3].html5.id}}">{{ times[3].html5.label }}</a></h5>
 					<small>Par {{ times[3].html5.speakername }}</small><br>
 					<small>Salle "{{ times[3].html5.room }}"</small>
 				</div>
 				<div class="one fifth calendar-cloud calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[3].cloud.id}}">{{ times[3].cloud.label }}</a></h5>
+					<h5><devfeststore session="times[3].cloud"></devfeststore><a href="#/sessions?sessionId={{times[3].cloud.id}}">{{ times[3].cloud.label }}</a></h5>
 					<small>Par {{ times[3].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[3].cloud.room }}"</small>
 				</div>
 				<div class="one fifth calendar-ux calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[3].decouverte.id}}">{{ times[3].decouverte.label }}</a></h5>
+					<h5><devfeststore session="times[3].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[3].decouverte.id}}">{{ times[3].decouverte.label }}</a></h5>
 					<small>Par {{ times[3].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[3].decouverte.room }}"</small>
 				</div>
 			</div>
 		</div>
-		<div class="one sixth mobile calendar-codelab calendar-two-blocks">
-			<h5><a href="#/sessions?sessionId={{times[11].codelabs.id}}">{{ times[11].codelabs.label }}</a></h5>
+		<div class="one sixth mobile calendar-codelab calendar-two-blocks two-up-mobile">
+			<h5><devfeststore session="times[11].codelabs"></devfeststore><a href="#/sessions?sessionId={{times[11].codelabs.id}}">{{ times[11].codelabs.label }}</a></h5>
 			<small>Par {{ times[11].codelabs.speakername }}</small><br>
 			<small>Salle "{{ times[11].codelabs.room }}"</small>
 		</div>
@@ -114,28 +114,28 @@
 	</div>
 	<!-- apres midi (part1)-->
 	<div class="row pad-bottom">
-		<div class="five sixths mobile">
+		<div class="five sixths mobile two-up-mobile">
 			<div class="row pad-bottom">
 				<div class="one fifth calendar-time">
 					<h5>{{ times[5].start }} -  {{ times[5].end }}</h5>
 				</div>
 				<div class="one fifth calendar-android calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[5].android.id}}">{{ times[5].android.label }}</a></h5>
+					<h5><devfeststore session="times[5].android"></devfeststore><a href="#/sessions?sessionId={{times[5].android.id}}">{{ times[5].android.label }}</a></h5>
 					<small>Par {{ times[5].android.speakername }}</small><br>
 					<small>Salle "{{ times[5].android.room }}"</small>
 				</div>
 				<div class="one fifth calendar-html5 calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[5].html5.id}}">{{ times[5].html5.label }}</a></h5>
+					<h5><devfeststore session="times[5].html5"></devfeststore><a href="#/sessions?sessionId={{times[5].html5.id}}">{{ times[5].html5.label }}</a></h5>
 					<small>Par {{ times[5].html5.speakername }}</small><br>
 					<small>Salle "{{ times[5].html5.room }}"</small>
 				</div>
 				<div class="one fifth calendar-cloud calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[5].cloud.id}}">{{ times[5].cloud.label }}</a></h5>
+					<h5><devfeststore session="times[5].cloud"></devfeststore><a href="#/sessions?sessionId={{times[5].cloud.id}}">{{ times[5].cloud.label }}</a></h5>
 					<small>Par {{ times[5].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[5].cloud.room }}"</small>
 				</div>
 				<div class="one fifth calendar-ux calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[5].decouverte.id}}">{{ times[5].decouverte.label }}</a></h5>
+					<h5><devfeststore session="times[5].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[5].decouverte.id}}">{{ times[5].decouverte.label }}</a></h5>
 					<small>Par {{ times[5].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[5].decouverte.room }}"</small>
 				</div>
@@ -147,29 +147,29 @@
 					<h5>{{ times[6].start }} -  {{ times[6].end }}</h5>
 				</div>
 				<div class="one fifth calendar-android calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[6].android.id}}">{{ times[6].android.label }}</a></h5>
+					<h5><devfeststore session="times[6].android"></devfeststore><a href="#/sessions?sessionId={{times[6].android.id}}">{{ times[6].android.label }}</a></h5>
 					<small>Par {{ times[6].android.speakername }}</small><br>
 					<small>Salle "{{ times[6].android.room }}"</small>
 				</div>
 				<div class="one fifth calendar-html5 calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[6].html5.id}}">{{ times[6].html5.label }}</a></h5>
+					<h5><devfeststore session="times[6].html5"></devfeststore><a href="#/sessions?sessionId={{times[6].html5.id}}">{{ times[6].html5.label }}</a></h5>
 					<small>Par {{ times[6].html5.speakername }}</small><br>
 					<small>Salle "{{ times[6].html5.room }}"</small>
 				</div>
 				<div class="one fifth calendar-cloud calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[6].cloud.id}}">{{ times[6].cloud.label }}</a></h5>
+					<h5><devfeststore session="times[6].cloud"></devfeststore><a href="#/sessions?sessionId={{times[6].cloud.id}}">{{ times[6].cloud.label }}</a></h5>
 					<small>Par {{ times[6].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[6].cloud.room }}"</small>
 				</div>
 				<div class="one fifth calendar-ux calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[6].decouverte.id}}">{{ times[6].decouverte.label }}</a></h5>
+					<h5><devfeststore session="times[6].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[6].decouverte.id}}">{{ times[6].decouverte.label }}</a></h5>
 					<small>Par {{ times[6].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[6].decouverte.room }}"</small>
 				</div>
 			</div>
 		</div>
-		<div class="one sixth calendar-codelab mobile calendar-two-blocks">
-			<h5><a href="#/sessions?sessionId={{times[12].codelabs.id}}">{{ times[12].codelabs.label }}</a></h5>
+		<div class="one sixth calendar-codelab mobile calendar-two-blocks two-up-mobile">
+			<h5><devfeststore session="times[12].codelabs"></devfeststore><a href="#/sessions?sessionId={{times[12].codelabs.id}}">{{ times[12].codelabs.label }}</a></h5>
 			<small>Par {{ times[12].codelabs.speakername }}</small><br>
 			<small>Salle "{{ times[12].codelabs.room }}"</small>
 		</div>
@@ -185,28 +185,28 @@
 	</div>
 	<!-- Apres midi (part1) -->
 	<div class="row pad-bottom">
-		<div class="five sixths mobile">
+		<div class="five sixths mobile two-up-mobile">
 			<div class="row pad-bottom">
 				<div class="one fifth calendar-time">
 					<h5>{{ times[8].start }} -  {{ times[8].end }}</h5>
 				</div>
 				<div class="one fifth calendar-android calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[8].android.id}}">{{ times[8].android.label }}</a></h5>
+					<h5><devfeststore session="times[8].android"></devfeststore><a href="#/sessions?sessionId={{times[8].android.id}}">{{ times[8].android.label }}</a></h5>
 					<small>Par {{ times[8].android.speakername }}</small><br>
 					<small>Salle "{{ times[8].android.room }}"</small>
 				</div>
 				<div class="one fifth calendar-html5 calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[8].html5.id}}">{{ times[8].html5.label }}</a></h5>
+					<h5><devfeststore session="times[8].html5"></devfeststore><a href="#/sessions?sessionId={{times[8].html5.id}}">{{ times[8].html5.label }}</a></h5>
 					<small>Par {{ times[8].html5.speakername }}</small><br>
 					<small>Salle "{{ times[8].html5.room }}"</small>
 				</div>
 				<div class="one fifth calendar-cloud calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[8].cloud.id}}">{{ times[8].cloud.label }}</a></h5>
+					<h5><devfeststore session="times[8].cloud"></devfeststore><a href="#/sessions?sessionId={{times[8].cloud.id}}">{{ times[8].cloud.label }}</a></h5>
 					<small>Par {{ times[8].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[8].cloud.room }}"</small>
 				</div>
 				<div class="one fifth calendar-ux calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[8].decouverte.id}}">{{ times[8].decouverte.label }}</a></h5>
+					<h5><devfeststore session="times[8].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[8].decouverte.id}}">{{ times[8].decouverte.label }}</a></h5>
 					<small>Par {{ times[8].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[8].decouverte.room }}"</small>
 				</div>
@@ -219,36 +219,36 @@
 				</div>
 				<div class="one fifth calendar-android calendar-one-block">
 					<div ng-hide="times[9].android.hide">
-					<h5><a href="#/sessions?sessionId={{times[9].android.id}}">{{ times[9].android.label }}</a></h5>
+					<h5><devfeststore session="times[9].android"></devfeststore><a href="#/sessions?sessionId={{times[9].android.id}}">{{ times[9].android.label }}</a></h5>
 					<small  >Par {{ times[9].android.speakername }}</small><br>
 					<small>Salle "{{ times[9].android.room }}"</small>
 					</div>
 				</div>
 				<div class="one fifth calendar-html5 calendar-one-block">
 				<div ng-hide="times[9].html5.hide">
-					<h5><a href="#/sessions?sessionId={{times[9].html5.id}}">{{ times[9].html5.label }}</a></h5>
+					<h5><devfeststore session="times[9].html5"></devfeststore><a href="#/sessions?sessionId={{times[9].html5.id}}">{{ times[9].html5.label }}</a></h5>
 					<small>Par {{ times[9].html5.speakername }}</small><br>
 					<small>Salle "{{ times[9].html5.room }}"</small>
 					</div>
 				</div>
 				<div class="one fifth calendar-cloud calendar-one-block" >
 				<div ng-hide="times[9].cloud.hide">
-					<h5><a href="#/sessions?sessionId={{times[9].cloud.id}}">{{ times[9].cloud.label }}</a></h5>
+					<h5><devfeststore session="times[9].cloud"></devfeststore><a href="#/sessions?sessionId={{times[9].cloud.id}}">{{ times[9].cloud.label }}</a></h5>
 					<small>Par {{ times[9].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[9].cloud.room }}"</small>
 					</div>
 				</div>
 				<div class="one fifth calendar-ux calendar-one-block" >
 					<div ng-hide="times[9].decouverte.hide">
-					<h5><a href="#/sessions?sessionId={{times[9].decouverte.id}}">{{ times[9].decouverte.label }}</a></h5>
+					<h5><devfeststore session="times[9].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[9].decouverte.id}}">{{ times[9].decouverte.label }}</a></h5>
 					<small>Par {{ times[9].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[9].decouverte.room }}"</small>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="one sixth calendar-codelab mobile calendar-two-blocks">
-			<h5><a href="#/sessions?sessionId={{times[13].codelabs.id}}">{{ times[13].codelabs.label }}</a></h5>
+		<div class="one sixth calendar-codelab mobile calendar-two-blocks two-up-mobile">
+			<h5><devfeststore session="times[13].codelabs"></devfeststore><a href="#/sessions?sessionId={{times[13].codelabs.id}}">{{ times[13].codelabs.label }}</a></h5>
 			<small>Par {{ times[13].codelabs.speakername }}</small><br>
 			<small>Salle "{{ times[13].codelabs.room }}"</small>
 		</div>

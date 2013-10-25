@@ -904,8 +904,16 @@ p.sponsor-empty span {
     background-image: url('../images/speakers/arichard.png');  
 }
 
+.cprunier{
+    background-image: url('../images/speakers/cprunier.png');  
+}
+
 .dgirard{
     background-image: url('../images/speakers/dgirard.png');  
+}
+
+.ekwok{
+    background-image: url('../images/speakers/ekwok.png');  
 }
 
 .gcampion{

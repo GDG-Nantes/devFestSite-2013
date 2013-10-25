@@ -88,6 +88,20 @@
 			"description" : "Le NFC tout le monde commence à en entendre parler mais que se cache-t-il réellement derrière ces 3 lettres ? Cette technologie envahit petit à petit nos smartphones et nous sommes en droit de nous poser un certain nombre de questions concernant son intégration, son développement... Nous verrons donc dans un premier temps la norme NFC afin de mieux appréhender la technologie et de comprendre ce qu'il y a derrière ce trigramme. Nous étudierons des cas d'usages possibles car il n'y a pas que le paiement qui peut être fait en NFC ;) Nous nous attarderons ensuite sur l'aspect : compatibilité matériel, version Android car dire que l'on fait du NFC ne fait pas tout. Nous terminerons par une présentation de son implémentation dans le framework Android.<br>Cette présentation sera ponctuée de démos pour rendre la présentation plus interactive."
 		},
 		{
+			"id" : 26,
+			"label" : "Un rom cooking industrialisé : les bonnes pratiques à adopter!",
+            "visible" : true,
+			"track" : "_mobile",
+			"track_lbl" : "Mobilité",
+			"icon" : "android",
+			"speaker" : ["ekwok", "cprunier"],
+			"lang" : "fr",
+			"level" : "201",
+			"time" : "S6",
+			"room" : "TBD",
+			"description" : "La session parlera de rom cooking industrialisé a destination des professionnels. Les problématiques rencontrées, les solutions apportées et les bonnes pratiques pour faire cela. Nous parlerons entre autre de la manière de versionner les sources, de la manière d’intégrer correctement une target dans le build, de l'importance du choix du matériel lorsque l'on veut faire un outil métier avec une rom personnalisée, et les risques lorsque le matériel est mal choisi."
+		},
+		{
 			"id" : 6,
 			"label" : "AngularJS: making a browser a better development platform",
             "visible" : true,
@@ -389,6 +403,13 @@
             "urlGithub"  : "https://github.com/antoine-richard/"
 		},
 		{
+			"id" : "cprunier",
+            "visible" : true,
+			"displayName" : "Charles-Henry Prunier",
+			"bio" : "Je suis un ancien développeur de chez Archos, chez qui j'ai travaillé 3 ans a faire les firmwares android. Je suis chez genymobile depuis le mois de janvier où je fais des roms a destination des professionnels.",
+			"urlGooglePlus" : "https://plus.google.com/u/0/113947333441309712266/posts"
+		},
+		{
 			"id" : "caddinquy",
             "visible" : true,
 			"displayName" : "Christophe Addinquy",
@@ -414,6 +435,13 @@
 			"bio" : "Didier Girard Directeur des Operations et de L'innovation chez SFEIR, Didier Girard est Docteur en Informatique de l'ENS Lyon. Il aime acquérir des connaissances et les partager. Toujours à la recherche de technologies qui va s'imposer sur le marché dans les années à venir. Il travaille sur des projets mettant en oeuvre le Cloud Computing depuis 2008",
 			"urlGooglePlus" : "https://plus.google.com/u/0/115263933340916245640/posts",
 			"urlTwitter" : "http://twitter.com/DidierGirard"
+		},
+		{
+			"id" : "ekwok",
+            "visible" : true,
+			"displayName" : "Ellinor Kwok",
+			"bio" : "Technophile, j'ai commencé à développer sur Android il y a de cela un an et demi. Après une première expérience à Orange Labs Pékin où j'ai fait du rom cooking, j'ai intégré Genymobile il y a de cela presque un an où j'ai fait en grande partie du rom cooking dans le B2B.",
+			"urlGooglePlus" : "https://plus.google.com/u/0/111267845786218490728/posts"
 		},
 		{
 			"id" : "elezmy",
