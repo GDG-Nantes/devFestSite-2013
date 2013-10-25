@@ -167,6 +167,18 @@ devfestApp.controller('SessionDetailCtrl',['$scope', function ($scope) {
  */
 devfestApp.controller('AgendaCtrl',['$scope', '$http', function ($scope, $http) {
   
+  $scope.storeSession = function(sessionId){
+    if (localStorage){
+      if (localStorage[session.id]){
+        localStorage.removeItem(session.id);
+        session.class ="-empty";
+      }else{
+        localStorage[session.id] = true;        
+        session.class ="";
+      }
+    }
+  }
+
   function getSpeaker(speakers, speakerId) {
     var speakersName = "";
     for (var i=0; i<speakers.length; i++) {
@@ -197,6 +209,7 @@ devfestApp.controller('AgendaCtrl',['$scope', '$http', function ($scope, $http) 
         if (session.time && line.name === session.time) {
           // Get speaker name of the session
           session.speakername = getSpeaker(speakers, session.speaker);
+          session.class ="-empty";
           // Add the session to the corresponding track line
           switch (session.track) {
             case "_mobile" :
@@ -296,6 +309,23 @@ devfestApp.directive('faq', function () {
             icon.toggleClass('icon-arrow-right');
         });
         
+    }
+  };
+  return directiveDefinitionObject;
+});
+
+/**
+*
+*/
+devfestApp.directive('devstore', function () {
+   var directiveDefinitionObject = {
+    replace: true,,
+    restrict: 'A',
+    scope: {
+        
+    },    
+    link: function postLink(scope, iElement, iAttrs) { 
+       
     }
   };
   return directiveDefinitionObject;

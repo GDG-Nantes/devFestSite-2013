@@ -42,14 +42,14 @@
 	</div>
 	<!-- Matin -->
 	<div class="row pad-bottom">
-		<div class="five sixths mobile">
+		<div class="five sixths mobile two-up-mobile">
 			<div class="row pad-bottom">
 				<!-- Horaire -->
 				<div class="one fifth calendar-time">
 					<h5>{{ times[2].start }} -  {{ times[2].end }}</h5>
 				</div>
-				<div class="one fifth calendar-android calendar-one-block">
-					<h5><a href="#/sessions?sessionId={{times[2].android.id}}">{{ times[2].android.label }}</a></h5>
+				<div  ng-click="alert('tit');" class="one fifth calendar-android calendar-one-block">
+					<h5><!--<div ng-click="alert('toto');storeSession({{times[2].android.id}});" class="hide-on-desktop"><i class="icon-star{{times[2].android.class}}">&nbsp;&nbsp;</i></div>--><a href="#/sessions?sessionId={{times[2].android.id}}">{{ times[2].android.label }}</a></h5>
 					<small>Par {{ times[2].android.speakername }}</small><br>
 					<small>Salle "{{ times[2].android.room }}"</small>
 				</div>
@@ -97,7 +97,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="one sixth mobile calendar-codelab calendar-two-blocks">
+		<div class="one sixth mobile calendar-codelab calendar-two-blocks two-up-mobile">
 			<h5><a href="#/sessions?sessionId={{times[11].codelabs.id}}">{{ times[11].codelabs.label }}</a></h5>
 			<small>Par {{ times[11].codelabs.speakername }}</small><br>
 			<small>Salle "{{ times[11].codelabs.room }}"</small>
@@ -114,7 +114,7 @@
 	</div>
 	<!-- apres midi (part1)-->
 	<div class="row pad-bottom">
-		<div class="five sixths mobile">
+		<div class="five sixths mobile two-up-mobile">
 			<div class="row pad-bottom">
 				<div class="one fifth calendar-time">
 					<h5>{{ times[5].start }} -  {{ times[5].end }}</h5>
@@ -168,7 +168,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="one sixth calendar-codelab mobile calendar-two-blocks">
+		<div class="one sixth calendar-codelab mobile calendar-two-blocks two-up-mobile">
 			<h5><a href="#/sessions?sessionId={{times[12].codelabs.id}}">{{ times[12].codelabs.label }}</a></h5>
 			<small>Par {{ times[12].codelabs.speakername }}</small><br>
 			<small>Salle "{{ times[12].codelabs.room }}"</small>
@@ -185,7 +185,7 @@
 	</div>
 	<!-- Apres midi (part1) -->
 	<div class="row pad-bottom">
-		<div class="five sixths mobile">
+		<div class="five sixths mobile two-up-mobile">
 			<div class="row pad-bottom">
 				<div class="one fifth calendar-time">
 					<h5>{{ times[8].start }} -  {{ times[8].end }}</h5>
@@ -247,7 +247,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="one sixth calendar-codelab mobile calendar-two-blocks">
+		<div class="one sixth calendar-codelab mobile calendar-two-blocks two-up-mobile">
 			<h5><a href="#/sessions?sessionId={{times[13].codelabs.id}}">{{ times[13].codelabs.label }}</a></h5>
 			<small>Par {{ times[13].codelabs.speakername }}</small><br>
 			<small>Salle "{{ times[13].codelabs.room }}"</small>
