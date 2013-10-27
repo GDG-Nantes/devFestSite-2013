@@ -527,6 +527,22 @@ Tentative 2 colonnes
     background-image:url(../images/devfest/google_dev_small.png);   
 }
 
+.hangout{
+  float:right;
+  margin-left:10px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/devfest/hangout.png);
+}
+
+.live{
+  float:right;
+  margin-left:10px;
+  width: 16px;
+  height: 11px;
+  background-image: url(../images/devfest/live.png);
+}
+
 /**
 * Team
 */
