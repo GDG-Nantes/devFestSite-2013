@@ -530,16 +530,16 @@ Tentative 2 colonnes
 .hangout{
   float:right;
   margin-left:10px;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   background-image: url(../images/devfest/hangout.png);
 }
 
 .live{
   float:right;
   margin-left:10px;
-  width: 16px;
-  height: 11px;
+  width: 30px;
+  height: 20px;
   background-image: url(../images/devfest/live.png);
 }
 
