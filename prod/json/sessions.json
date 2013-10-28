@@ -28,13 +28,14 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S1",
-			"room" : "TBD",
+			"room" : "Bellem",
 			"description" : "Présentation générale de Tizen, le système d'exploitation Open Source cross-plateforme co-développé par Intel et Samsung, visant principalement le secteur des appareils mobiles.<br>Nous explorerons l'écosystème Tizen et son développement HTML5, son Store et ses outils de développement."
 		},
 		{
 			"id" : 2,
 			"label" : "Google Glass : retours d’expérience après 6 mois ",
             "visible" : true,
+			"live" : true,
 			"track" : "_mobile",
 			"track_lbl" : "Mobilité",
 			"icon" : "glass",
@@ -42,13 +43,14 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S2",
-			"room" : "TBD",
+			"room" : "Titan",
 			"description" : "Cette session aura pour objectif de présenter les fameuses Google Glass, de leur usages en passant par leur possibilités. Guillaume reviendra sur son approche et présentera un retour d'expérience de ses premiers développements."
 		},
 		{
 			"id" : 3,
 			"label" : "Play Store bashing, apprendre des erreurs des grands",
             "visible" : true,
+            "live" : true,
 			"track" : "_mobile",
 			"track_lbl" : "Mobilité",
 			"icon" : "android",
@@ -56,7 +58,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S3",
-			"room" : "TBD",
+			"room" : "Titan",
 			"description" : "Outlook.com, Facebook Home, ... Tous ces noms vous disent surement quelque chose, ils sont assez célèbres et semblent bien gérés par les multinationales qui les possèdent. Ils n'ont en fait pas vraiment rencontré le succès et la reconnaissance des utilisateurs du Google PlayStore.<br>Durant cette présentation, je vous raconterai les péripéties de plusieurs entreprises sur le Play Store, pour les analyser, comprendre pourquoi elles-n'ont pas réussi a satisfaire leurs utilisateurs, et apprendre de leurs erreurs, pour ne pas vivre la même expérience."
 		},
 		{
@@ -70,7 +72,7 @@
 			"lang" : "fr",
 			"level" : "301",
 			"time" : "S4",
-			"room" : "TBD",
+			"room" : "Bellem",
 			"description" : "As part of the Google Play services - a platform that offers a better integration with Google products - Google recently released perhaps one of the most frequently requested upgrade: the Google Maps Android API v2. This new framework allows you to embed standard or customized maps directly in your application. Now Google Maps Android API v2 lets you leverage Google's beautiful new vector based maps.<br><br>In this session, we will learn about the new API and features introduced with Google Maps Android API v2 and how to start visualizing information geographically within your applications."		
 		},
 		{
@@ -84,7 +86,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S5",
-			"room" : "TBD",
+			"room" : "Graslin",
 			"description" : "Le NFC tout le monde commence à en entendre parler mais que se cache-t-il réellement derrière ces 3 lettres ? Cette technologie envahit petit à petit nos smartphones et nous sommes en droit de nous poser un certain nombre de questions concernant son intégration, son développement... Nous verrons donc dans un premier temps la norme NFC afin de mieux appréhender la technologie et de comprendre ce qu'il y a derrière ce trigramme. Nous étudierons des cas d'usages possibles car il n'y a pas que le paiement qui peut être fait en NFC ;) Nous nous attarderons ensuite sur l'aspect : compatibilité matériel, version Android car dire que l'on fait du NFC ne fait pas tout. Nous terminerons par une présentation de son implémentation dans le framework Android.<br>Cette présentation sera ponctuée de démos pour rendre la présentation plus interactive."
 		},
 		{
@@ -98,13 +100,14 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S6",
-			"room" : "TBD",
+			"room" : "Bellem",
 			"description" : "La session parlera de rom cooking industrialisé a destination des professionnels. Les problématiques rencontrées, les solutions apportées et les bonnes pratiques pour faire cela. Nous parlerons entre autre de la manière de versionner les sources, de la manière d’intégrer correctement une target dans le build, de l'importance du choix du matériel lorsque l'on veut faire un outil métier avec une rom personnalisée, et les risques lorsque le matériel est mal choisi."
 		},
 		{
 			"id" : 6,
 			"label" : "AngularJS: making a browser a better development platform",
             "visible" : true,
+            "live" : true,
 			"track" : "_web",
 			"track_lbl" : "Web",
 			"icon" : "angularjs",
@@ -112,7 +115,7 @@
 			"lang" : "en",
 			"level" : "201",
 			"time" : "S1",
-			"room" : "TBD",
+			"room" : "Titan",
 			"description" : "This talk will familiarize you with AngularJS JavaScript framework and its revolutionary approach to writing single-page web applications. AngularJS is unique in many ways with its DOM-based, declarative templating, ability to extend HTML vocabulary and strong focus on testing. <br><br> AngularJS will be introduced by contrasting it with traditional approaches and showing benefits of the AngularJS-way (extremely concise yet readable code, testability and most importantly – making web development fun again!). This will be an interactive talk with plenty of code examples."
 		},
 		{
@@ -126,7 +129,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S2",
-			"room" : "TBD",
+			"room" : "Bellem",
 			"description" : "Aujourd’hui pour créer une application web dynamique, on a le choix entre une multitude de framework JavaScript, mais aussi une multitude de langage qui compile vers JavaScript. Il est même possible de combiner ces technologies mais parfois avec un certain manque de cohérence.<br>Aujourd’hui, Dart approche de la v1 et propose déjà des solutions pour créer une application web structurée et performante. Le langage s’annonce déjà précurseur en embarquant certains standards du web en cours d’implémentation par les navigateurs modernes.<br>Nous ferons le tour de langage et des frameworks Dart grâce à un live-coding d’une application, fil conducteur de cette présentation."
 		},
 		{
@@ -140,7 +143,7 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S3",
-			"room" : "TBD",
+			"room" : "Bellem",
 			"description" : "We will introduce three.js and how to use it easily to produce games. We will put the focus on the game part and i will share my personnal experience on the matter.﻿"
 		},
 		{
@@ -154,7 +157,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S4",
-			"room" : "TBD",
+			"room" : "Graslin",
 			"description" : "Les Chrome Apps sont des applications écrites avec des technos web mais avec des capacités plus puissantes que sur le web. Elles s'exécutent dans un environnement sécurisé, ressemblent à s'y méprendre aux applications natives, sont multi-plateformes et fonctionnent hors-ligne par défaut."
 		},
 		{
@@ -168,13 +171,14 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S5",
-			"room" : "TBD",
+			"room" : "Bellem",
 			"description" : "Si le front de doyoubuzz a largement fait ses preuves depuis plus de 5 ans, il était grand temps de lui offrir une seconde jeunesse. C'est l'un des objectifs de la refonte complète de l'application qui a lieu en ce moment même.<br>Ce talk expliquera donc comment DoYouBuzz est passé d'un front basé uniquement sur jQuery à une véritable application MVC grâce à AngularJS."
 		},
 		{
 			"id" : 11,
 			"label" : "Web Components, l'avenir des développeurs web",
             "visible" : true,
+            "live" : true,
 			"track" : "_web",
 			"track_lbl" : "Web",
 			"icon" : "html5",
@@ -182,7 +186,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S6",
-			"room" : "TBD",
+			"room" : "Titan",
 			"description" : "Templating, encapsulation, éléments customs, databinding... Tous les frameworks web modernes proposent actuellement leur propre solution.<br><br>Mais saviez-vous qu’une spécification du W3C proposant de standardiser tout ceci est en cours de rédaction ? Les Web Components.<br>Dans cette présentation, nous prendrons de l’avance ! Nous aborderons les concepts fondamentaux des Web Components : ShadowDOM, Mutation Observers, custom elements, Model-Driven-View, Object.observe()... mais aussi comment les utiliser dès aujourd'hui avec des frameworks tels que AngularJS ou Dart WebUI"
 		},
 		{
@@ -196,7 +200,7 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S1",
-			"room" : "TBD",
+			"room" : "Bretagne",
 			"description" : "Présentation des nouveautés de La Platforme Cloud Google : 5 ans après le lancement d'App Engine, il est temps d'évoluer vers le futur:<br>Java7, Maven, WTP, Android Studio, Cloud Endpoints, Modules, VM Backends, App Engine TCK, Capedwarf, Cloud Datastore, PHP,...<br>Bien sur, tout cela avec des demos!"
 		},
 		{
@@ -210,7 +214,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S2",
-			"room" : "TBD",
+			"room" : "Bretagne",
 			"description" : "Nous explorerons dans cette cession les enjeux des API Web. Plus qu'un endpoint REST et qu'un point d'échange d'informations vers des applications mobiles, une API Web représente un enjeu stratégique qui permet de répondre aux enjeux du multi-canal et du cross device. Que vous soyez développeur d'une application, d'un site marchand, ou bien d'un service en ligne, une Web API accompagne ainsi votre stratégie commerciale et requiert une approche technique adaptée en terme de cycle de vie (versions, documentation, exploitation..). Bref, bien concevoir et gérer sa Web API c'est au moins aussi important et bien plus critique que choisir le CMS adapté à son site Web. <br>Les API Web c'est aussi une superbe opportunité pour se placer en tant que dev/ops et architecte, dans une nouvelle posture au sein de son organisation. Nous illustrerons notre propos avec les solutions proposées par la plateforme APISpark bâtie par les développeurs du framework Restlet.<br><br>Agenda :<br><ul><li>Rappels REST : Hébergements Restlet sur AppEngine et Android</li><li>Enjeux du Web et de la mobilité, du multi-canal, multi-device, Importance de l'API Web, Zoom sur APISpark</li></ul>"
 		},
 		{
@@ -224,13 +228,14 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S3",
-			"room" : "TBD",
+			"room" : "Graslin",
 			"description" : "Cette session est une session découverte sur le langage Go, un des quatre langages supportés sur la plateforme (avec python, java et php)<br>L'idée est de présenter le langage, de montrer ses possibilité et son déploiement sur AppEngine.<br>Après un tour des 'features' disponibles pour ce langage sur AppEngine, nous aborderons en quoi Go est un langage parfait pour développer sur AppEngine (voir même le langage de référence du cloud)."
 		},
 		{
 			"id" : 15,
 			"label" : "AppEngine: la platforme ideale pour lancer une startup",
             "visible" : true,
+            "live" : true,
 			"track" : "_cloud",
 			"track_lbl" : "Cloud & APIs",
 			"icon" : "appengine",
@@ -238,13 +243,14 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S4",
-			"room" : "TBD",
+			"room" : "Titan",
 			"description" : "La conférence présentera d'abord les principes et les concepts de la plateforme de Cloud de Google. Ensuite, Jérôme expliquera en quoi ce service est révolutionnaire pour une startup. Enfin, des exemples précis et pratiques en Java seront détaillés pour exposer les bonnes pratiques, les pièges a éviter, etc. "
 		},
 		{
 			"id" : 16,
 			"label" : "Why Google+ Sign-In?",
             "visible" : true,
+            "hangout" : true,
 			"track" : "_cloud",
 			"track_lbl" : "Cloud & APIs",
 			"icon" : "google_plus",
@@ -252,13 +258,14 @@
 			"lang" : "en",
 			"level" : "201",
 			"time" : "S5",
-			"room" : "TBD",
+			"room" : "Bretagne",
 			"description" : "In this session we'll look at why Google+ Sign-In is the best choice for adding identity to your application and gaining access to a huge range of Google services. We'll focus on Android and the web, and look at how to add sign-in, how to build a seamless cross-platform experience, and how to take advantage of services like Google Play Games, Google Drive or YouTube"
 		},
 		{
 			"id" : 17,
 			"label" : "Google Drive Real Time API",
             "visible" : true,
+            "hangout" : true,
 			"track" : "_cloud",
 			"track_lbl" : "Cloud & APIs",
 			"icon" : "drive",
@@ -266,7 +273,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S6",
-			"room" : "TBD",
+			"room" : "Bretagne",
 			"description" : "Cette session sera l'occasion de présenter cette API qui permet à vos utilisateurs d'uiliser la puissance d'une collaboration à la Google Docs le tout en javascript et sans serveur !"
 		},
 		{
@@ -280,7 +287,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S1",
-			"room" : "TBD",
+			"room" : "Graslin",
 			"description" : "Communiquer entre un Arduino et Chrome c'est possible! Et cela directement grace à la chrome serial API!<br>Venez assister à la session afin de voir un live coding d'une extension Chrome qui discute directement avec le monde réel grace à Arduino!<br><br>Au programme, un peu d'électronique, du JS et du fun!"
 		},
 		{
@@ -294,7 +301,7 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S2",
-			"room" : "TBD",
+			"room" : "Graslin",
 			"description" : "Derrière le nuage, il y a une une infrastructure, des tuyaux, des utilisateurs avec des PC... Rien de virtuel. Constat renforcé par une autre loi que le web respecte : l'entropie. Plus il y a de place et de ressource, plus le contenu web va l'occuper. Les impacts sont énormes : explosion des capacités de stockage, obsolescence du matériel, baisse de performance, consommation des data centers…<br><br>Est-ce que mettre des toits végétalisés et des panneaux solaires sur les data centers suffira ? <br><br>Pourtant des pratiques existent pour limiter ce phénomène : éco-conception des sites, conception green des data centers, meilleures usages par les utilisateurs, amélioration du matériel... <br><br>Alors pourquoi s'en priver ? Et par où commencer ?"
 		},
 		{
@@ -308,7 +315,7 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S3",
-			"room" : "TBD",
+			"room" : "Bretagne",
 			"description" : "Stratégie consistant à briser les conventions établies sur un marché pour  se positionner en acteur incontournable"
 		},
 		{
@@ -322,13 +329,14 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S4",
-			"room" : "TBD",
+			"room" : "Bretagne",
 			"description" : "Les développeurs ne sont pas tous des individus mal rasés, travaillant la nuit et jonchant leur sillage de boites de soda et d'emballages de pizzas.<br>L'agilité ne se réduit pas à des hurluberlus cherchant à couvrir chaque centimètre carré des murs de post-it multicolores.<br>Et d'ailleurs, l'agilité, qu'est-ce que c'est vraiment ?<br>Est-ce une nouvelle mode qu'il me faudra subir et passera à mon grand soulagement ? Ou est-ce une véritable réponse à la sclérose et l'inefficacité qui gangrènent nos projets ?<br><br>Durant cette session de découverte, nous allons découvrir ensemble ce qu'est réellement l'agilité, en quoi il peut vous aider à réaliser des projets qui déchirent tout en y prenant plaisir ! Depuis les principes de base (adaptation aux changements, collaboration et transparence) jusqu'aux pratiques telles que le test-driven développement, le pair-programming, l'intégration continue, etc. nous iront à la rencontre des fondamentaux de l'univers agile.<br>Enfin, nous dérouleront un jour dans la vie du développeur agile pour comprendre comment les choses se passent. Réellement."
 		},
 		{
 			"id" : 22,
 			"label" : "À quoi sert un designer?",
             "visible" : true,
+            "live" : true,
 			"track" : "_decouverte",
 			"track_lbl" : "Découverte",
 			"icon" : "ux",
@@ -336,7 +344,7 @@
 			"lang" : "fr",
 			"level" : "101",
 			"time" : "S5",
-			"room" : "TBD",
+			"room" : "Titan",
 			"description" : "Le but de cette session va être d'expliquer le rôle d'un designer dans le processus de développement d'une application mobile.<br>De la réflexion autour du concept de navigation jusqu'à la livraison des éléments graphiques pour l'intégration, l'objectif va être d'expliquer aux développeurs présents les méthodes de design qui rendront leur application encore plus pertinente et aboutie."
 		},
 		{
@@ -350,7 +358,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S1-2",
-			"room" : "TBD",
+			"room" : "Les Machines",
 			"description" : "Découvrez comment optimiser votre application android sur X86."
 		},
 		{
@@ -364,7 +372,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S3-4",
-			"room" : "TBD",
+			"room" : "Les Machines",
 			"description" : "AngularJS permet de créer très facilement des vues et des formulaires travaillant sur notre modèle de données. Mais comment intégrer des composants externes dans notre application ? C'est justement l'objet de ce code-lab, où l'on va créer une directive AngularJS permettant d'insérer une carte Google Maps.<br><br>Nous y apprendrons :<br><ul><li>à créer une directive utilisable comme attribut ou balise HTML</li><li>à y inclure le code de manipulation de l'API Google Maps</li><li>à établir une liaison bidirectionnelle entre le composant et les données de notre application</li></ul>"
 		},
 		{
@@ -378,7 +386,7 @@
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S5-6",
-			"room" : "TBD",
+			"room" : "Les Machines",
 			"description" : "Venez concevoir et implémenter votre première API Web de façon évolutive, en intégrant notamment des données externes en provenance d'un Google SpreadSheet, et en les ré-exposant au travers de la plateforme APISpark."
 		}
 	],
