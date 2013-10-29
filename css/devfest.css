@@ -796,6 +796,12 @@ p.sponsor-empty span {
     height:72px;
 }
 
+.manning{
+    background-image: url('../images/sponsors/manning.png');
+    width:104px;
+    height:100px;
+}
+
 /**
 * Technos
 */
