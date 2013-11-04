@@ -530,17 +530,21 @@ Tentative 2 colonnes
 .hangout{
   float:right;
   margin-left:10px;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   background-image: url(../images/devfest/hangout.png);
 }
 
 .live{
   float:right;
   margin-left:10px;
-  width: 16px;
-  height: 11px;
+  width: 30px;
+  height: 20px;
   background-image: url(../images/devfest/live.png);
+}
+
+.live.left{
+  float:rleft;  
 }
 
 /**
@@ -745,7 +749,7 @@ p.sponsor-empty span {
 
 .restlet{
     background-image: url('../images/sponsors/logo-restlet.png');
-    width:95px;
+    width:104px;
     height:100px;
 }
 
@@ -790,6 +794,12 @@ p.sponsor-empty span {
     margin-top: 14px;
     width:200px;
     height:72px;
+}
+
+.manning{
+    background-image: url('../images/sponsors/manning.png');
+    width:104px;
+    height:100px;
 }
 
 /**

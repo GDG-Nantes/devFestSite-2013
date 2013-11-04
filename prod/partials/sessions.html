@@ -52,7 +52,7 @@
 			</div>
 			<div class="one third mobile align-right">
 				{{ time }}, salle {{ session.room }}<br>
-				<small>Tracker {{ session.track_lbl }} - Difficulté {{ session.level }} - <img ng-src="./images/langs/{{ session.lang }}.png" /></small>
+				<small>Tracker {{ session.track_lbl }} - Difficulté {{ session.level }} - <img ng-src="./images/langs/{{ session.lang }}.png" /><div ng-show="session.hangout" class="hangout"></div><a href="http://youtube.com/francegdg" target="_blank"><div ng-show="session.live" class="live"></div></a></small>
 			</div>
 			<hr>            
 			<small>Présenté par <a ng-repeat="speaker in sessionSpeakers" href="index.html#/speakers?speakerId={{ speaker.id }}">{{ speaker.displayName }}&nbsp;&nbsp;</a></small>

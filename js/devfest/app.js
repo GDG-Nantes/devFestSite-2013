@@ -197,7 +197,7 @@ devfestApp.controller('AgendaCtrl',['$scope', '$http', function ($scope, $http) 
         if (session.time && line.name === session.time) {
           // Get speaker name of the session
           session.speakername = getSpeaker(speakers, session.speaker);
-          session.class = localStorage && localStorage[session.id] ? "" : "-empty";
+          session.classStar = localStorage && localStorage[session.id] ? "" : "-empty";
           // Add the session to the corresponding track line
           switch (session.track) {
             case "_mobile" :
@@ -318,10 +318,10 @@ devfestApp.directive('devfeststore', function () {
             if (localStorage){
               if (localStorage[$scope.session.id]){
                 localStorage.removeItem($scope.session.id);
-                $scope.session.class ="-empty";
+                $scope.session.classStar ="-empty";
               }else{
                 localStorage[$scope.session.id] = true;        
-                $scope.session.class ="";
+                $scope.session.classStar ="";
               }
               $scope.$apply();
             }
