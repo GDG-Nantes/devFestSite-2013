@@ -5,14 +5,16 @@ CACHE:
 
 #images
 #images/favicon.ico
-images/devfest/no-sprite/affiche_A1_2_V2.png
-images/devfest/no-sprite/banniere_160x400.png
-images/devfest/no-sprite/banniere_300x125.png
-images/devfest/no-sprite/banniere_300x250.png
-images/devfest/no-sprite/banniere_468x60.png
+images/devfest/no-sprites/affiche_A1_2_V2.png
+images/devfest/no-sprites/banniere_160x400.png
+images/devfest/no-sprites/banniere_300x125.png
+images/devfest/no-sprites/banniere_300x250.png
+images/devfest/no-sprites/banniere_468x60.png
 images/devfest/devfest-img1.jpg
 images/devfest/devfest-img2.jpg
 images/devfest/devfest-img3.jpg
+images/langs/fr.png
+images/langs/en.png
 images/sprites/devfest-sprite.png
 images/sprites/speakers-sprite.png
 images/sprites/team-sprite.png
@@ -27,6 +29,7 @@ partials/agenda.html
 partials/cfp.html
 partials/contacts.html
 partials/credits.html
+partials/devfeststore.html
 partials/faq.html
 partials/homepage.html
 partials/presse.html
