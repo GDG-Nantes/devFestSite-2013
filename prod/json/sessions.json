@@ -224,7 +224,7 @@
 			"track" : "_cloud",
 			"track_lbl" : "Cloud & APIs",
 			"icon" : "api_spark",
-			"speaker" : ["jlouvel"],
+			"speaker" : ["ssfartz"],
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S2",
@@ -396,7 +396,7 @@
 			"track" : "_codelab",
 			"track_lbl" : "CodeLab",
 			"icon" : "api_spark",
-			"speaker" : ["ttemplier"],
+			"speaker" : ["ttemplier", "tboileau"],
 			"lang" : "fr",
 			"level" : "201",
 			"time" : "S5-6",
@@ -500,7 +500,7 @@
 		},
 		{
 			"id" : "jetienne",
-            "visible" : true,
+            "visible" : false,
 			"displayName" : "Jerome Etienne",
 			"bio" : "Jerome Etienne is a hardcore JavaScript developer. He is CTO of beloola.com, a company doing game in three.js. He is focused on WebGL javaScript, and cool HTML5 game stuff. He organizes various local events to spread the word in local communities. He likes tree.js quite a bit and writelearningthreejs.com blog, trying to make WebGL easier to reach for beginners.",
 			"urlGooglePlus" : "https://plus.google.com/u/0/102848659911729905069/posts",
@@ -527,7 +527,7 @@
 		},
 		{
 			"id" : "jlouvel",
-            "visible" : true,
+            "visible" : false,
 			"displayName" : "Jérôme Louvel",
 			"bio" : " Jérôme is an engineer in computer science and management, graduate of Polytech'Montpellier. He started the open source Restlet Framework project back in 2005, as the first RESTful web API framework for Java.<br>He is in charge technical and commercial leadership of the company. Jérôme was also a member of the expert group that defined the standard JAX-RS API, contributor to the RESTful Web Services book published by O'Reilly and co-author of the Restlet in Action book published by Manning.",
 			"urlGooglePlus" : "https://plus.google.com/u/0/105549871383285353581/posts"
@@ -635,6 +635,13 @@
             "urlGithub"  : "https://github.com/thomasbelin4"
 		},
 		{
+			"id" : "tboileau",
+            "visible" : true,
+			"displayName" : "Thierry Boileau",
+			"bio" : "Thierry is also an engineer in computer science and management, graduate of Polytech'Montpellier where he discovered with Jérôme the fun of object orientation in Smalltalk then in Java. Thierry is core developer on the open source Restlet project to which he contributes since 2006.",
+			"urlGooglePlus" : "https://plus.google.com/u/0/108903221909670990095/posts"
+		},
+		{
 			"id" : "tchatel",
             "visible" : true,
 			"displayName" : "Thierry Chatel",
@@ -655,6 +662,15 @@
             "visible" : true,
 			"displayName" : "Romuald Rozan",
 			"bio" : " Romuald est Technical Community Manager (Développeur Évangéliste) chez Intel Corporation"
+		},
+		{
+			"id" : "ssfartz",
+            "visible" : true,
+			"displayName" : "Steve Sfartz",
+			"bio" : " 20 years experience in innovation, software architecture, enterprise transformation, pre-sales and sales, program management and team leadership in french and international environments.<br><br>I am particularly excited at starting up and renovating activities, delivering technical challenges, setting up teams, organization & projects roadmaps.",
+			"urlGooglePlus" : "https://plus.google.com/107689245733701200138/posts",
+			"urlTwitter" : "https://twitter.com/SteveSfartz",
+			"urlWebsite" : "http://blog.sfartz.com/"
 		},
 		{
 			"id" : "xhallade",
