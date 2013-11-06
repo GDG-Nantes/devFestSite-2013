@@ -135,7 +135,7 @@
 		{
 			"id" : 8,
 			"label" : "Three.js and game",
-            "visible" : true,
+            "visible" : false,
 			"track" : "_web",
 			"track_lbl" : "Web",
 			"icon" : "html5",
@@ -145,6 +145,20 @@
 			"time" : "S3",
 			"room" : "Bellem",
 			"description" : "We will introduce three.js and how to use it easily to produce games. We will put the focus on the game part and i will share my personnal experience on the matter.﻿"
+		},
+		{
+			"id" : 27,
+			"label" : "WebRTC : Real Time Communication",
+            "visible" : true,
+			"track" : "_web",
+			"track_lbl" : "Web",
+			"icon" : "webrtc",
+			"speaker" : ["jgarreau"],
+			"lang" : "fr",
+			"level" : "201",
+			"time" : "S3",
+			"room" : "Bellem",
+			"description" : "WebRTC implements open standards for realtime, plugin-free video, audio and data communication. The core WebRTC APIs – getUserMedia, RTCPeerConnection and DataChannel – have now been implemented across Chrome and Firefox. In this session, we show you how to get started with building a WebRTC app: - what’s a MediaStream (aka getUserMedia) and how can I use it? - resolution constraints - signalling: what is it and how can I set it up? - servers: what do I need? - RTCPeerConnection: WebRTC’s most powerful API - RTCDataChannel: realtime communication of arbitrary data - integrating WebRTC with Web Audio - interoperability - security During the session, we talk through code examples, live demos and production apps."
 		},
 		{
 			"id" : 9,
