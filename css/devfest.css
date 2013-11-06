@@ -886,6 +886,10 @@ p.sponsor-empty span {
   background-image: url('../images/technos/ux.png');
 }
 
+.webrtc{
+  background-image: url('../images/technos/webrtc.png');
+}
+
 /**
 * Speakers
 */
