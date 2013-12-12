@@ -48,10 +48,11 @@
 				<div class="one fifth calendar-time">
 					<h5>{{ times[2].start }} -  {{ times[2].end }}</h5>
 				</div>
-				<div  ng-click="alert('tit');" class="one fifth calendar-android calendar-one-block">
+				<div class="one fifth calendar-android calendar-one-block">
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[2].android.live" class="live desktop-only"></div></a>
 					<a ng-show="times[2].android.video" href="http://www.youtube.com/watch?v={{times[2].android.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[2].android.slides" href="{{times[2].android.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[2].android"></devfeststore><a href="#/sessions?sessionId={{times[2].android.id}}">{{ times[2].android.label }}</a></h5>
 					<small>Par {{ times[2].android.speakername }}</small><br>
 					<small>Salle "{{ times[2].android.room }}"</small>
@@ -60,6 +61,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[2].html5.live" class="live desktop-only"></div></a>
 					<a ng-show="times[2].html5.video" href="http://www.youtube.com/watch?v={{times[2].html5.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[2].html5.slides" href="{{times[2].html5.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[2].html5"></devfeststore><a href="#/sessions?sessionId={{times[2].html5.id}}">{{ times[2].html5.label }}</a></h5>
 					<small>Par {{ times[2].html5.speakername }}</small><br>
 					<small>Salle "{{ times[2].html5.room }}"</small>
@@ -68,6 +70,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[2].cloud.live" class="live desktop-only"></div></a>
 					<a ng-show="times[2].cloud.video" href="http://www.youtube.com/watch?v={{times[2].cloud.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[2].cloud.slides" href="{{times[2].cloud.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[2].cloud"></devfeststore><a href="#/sessions?sessionId={{times[2].cloud.id}}">{{ times[2].cloud.label }}</a></h5>
 					<small>Par {{ times[2].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[2].cloud.room }}"</small>
@@ -76,6 +79,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[2].decouverte.live" class="live desktop-only"></div></a>
 					<a ng-show="times[2].decouverte.video" href="http://www.youtube.com/watch?v={{times[2].decouverte.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[2].decouverte.slides" href="{{times[2].decouverte.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[2].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[2].decouverte.id}}">{{ times[2].decouverte.label }}</a></h5>
 					<small>Par {{ times[2].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[2].decouverte.room }}"</small>
@@ -91,6 +95,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[3].android.live" class="live desktop-only"></div></a>
 					<a ng-show="times[3].android.video" href="http://www.youtube.com/watch?v={{times[3].android.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[3].android.slides" href="{{times[3].android.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[3].android"></devfeststore><a href="#/sessions?sessionId={{times[3].android.id}}">{{ times[3].android.label }}</a></h5>
 					<small>Par {{ times[3].android.speakername }}</small><br>
 					<small>Salle "{{ times[3].android.room }}"</small>
@@ -99,6 +104,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[3].html5.live" class="live desktop-only"></div></a>
 					<a ng-show="times[3].html5.video" href="http://www.youtube.com/watch?v={{times[3].html5.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[3].html5.slides" href="{{times[3].html5.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[3].html5"></devfeststore><a href="#/sessions?sessionId={{times[3].html5.id}}">{{ times[3].html5.label }}</a></h5>
 					<small>Par {{ times[3].html5.speakername }}</small><br>
 					<small>Salle "{{ times[3].html5.room }}"</small>
@@ -107,6 +113,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[3].cloud.live" class="live desktop-only"></div></a>
 					<a ng-show="times[3].cloud.video" href="http://www.youtube.com/watch?v={{times[3].cloud.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[3].cloud.slides" href="{{times[3].cloud.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[3].cloud"></devfeststore><a href="#/sessions?sessionId={{times[3].cloud.id}}">{{ times[3].cloud.label }}</a></h5>
 					<small>Par {{ times[3].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[3].cloud.room }}"</small>
@@ -115,6 +122,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[3].decouverte.live" class="live desktop-only"></div></a>
 					<a ng-show="times[3].decouverte.video" href="http://www.youtube.com/watch?v={{times[3].decouverte.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[3].decouverte.slides" href="{{times[3].decouverte.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[3].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[3].decouverte.id}}">{{ times[3].decouverte.label }}</a></h5>
 					<small>Par {{ times[3].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[3].decouverte.room }}"</small>
@@ -122,7 +130,9 @@
 			</div>
 		</div>
 		<div class="one sixth mobile calendar-codelab calendar-two-blocks two-up-mobile">
-			<h5><devfeststore session="times[11].codelabs"></devfeststore><a href="#/sessions?sessionId={{times[11].codelabs.id}}">{{ times[11].codelabs.label }}</a></h5>
+			<h5>
+			<a ng-show="times[11].codelabs.slides" href="{{times[11].codelabs.slides}}" target="_blank"><div class="slides"></div></a>
+			<devfeststore session="times[11].codelabs"></devfeststore><a href="#/sessions?sessionId={{times[11].codelabs.id}}">{{ times[11].codelabs.label }}</a></h5>
 			<small>Par {{ times[11].codelabs.speakername }}</small><br>
 			<small>Salle "{{ times[11].codelabs.room }}"</small>
 		</div>
@@ -147,6 +157,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[5].android.live" class="live desktop-only"></div></a>
 					<a ng-show="times[5].android.video" href="http://www.youtube.com/watch?v={{times[5].android.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[5].android.slides" href="{{times[5].android.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[5].android"></devfeststore><a href="#/sessions?sessionId={{times[5].android.id}}">{{ times[5].android.label }}</a></h5>
 					<small>Par {{ times[5].android.speakername }}</small><br>
 					<small>Salle "{{ times[5].android.room }}"</small>
@@ -155,6 +166,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[5].html5.live" class="live desktop-only"></div></a>
 					<a ng-show="times[5].html5.video" href="http://www.youtube.com/watch?v={{times[5].html5.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[5].html5.slides" href="{{times[5].html5.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[5].html5"></devfeststore><a href="#/sessions?sessionId={{times[5].html5.id}}">{{ times[5].html5.label }}</a></h5>
 					<small>Par {{ times[5].html5.speakername }}</small><br>
 					<small>Salle "{{ times[5].html5.room }}"</small>
@@ -163,6 +175,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[5].cloud.live" class="live desktop-only"></div></a>
 					<a ng-show="times[5].cloud.video" href="http://www.youtube.com/watch?v={{times[5].cloud.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[5].cloud.slides" href="{{times[5].cloud.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[5].cloud"></devfeststore><a href="#/sessions?sessionId={{times[5].cloud.id}}">{{ times[5].cloud.label }}</a></h5>
 					<small>Par {{ times[5].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[5].cloud.room }}"</small>
@@ -171,6 +184,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[5].decouverte.live" class="live desktop-only"></div></a>
 					<a ng-show="times[5].decouverte.video" href="http://www.youtube.com/watch?v={{times[5].decouverte.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[5].decouverte.slides" href="{{times[5].decouverte.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[5].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[5].decouverte.id}}">{{ times[5].decouverte.label }}</a></h5>
 					<small>Par {{ times[5].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[5].decouverte.room }}"</small>
@@ -186,6 +200,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[6].android.live" class="live desktop-only"></div></a>
 					<a ng-show="times[6].android.video" href="http://www.youtube.com/watch?v={{times[6].android.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[6].android.slides" href="{{times[6].android.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[6].android"></devfeststore><a href="#/sessions?sessionId={{times[6].android.id}}">{{ times[6].android.label }}</a></h5>
 					<small>Par {{ times[6].android.speakername }}</small><br>
 					<small>Salle "{{ times[6].android.room }}"</small>
@@ -194,6 +209,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[6].html5.live" class="live desktop-only"></div></a>
 					<a ng-show="times[6].html5.video" href="http://www.youtube.com/watch?v={{times[6].html5.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[6].html5.slides" href="{{times[6].html5.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[6].html5"></devfeststore><a href="#/sessions?sessionId={{times[6].html5.id}}">{{ times[6].html5.label }}</a></h5>
 					<small>Par {{ times[6].html5.speakername }}</small><br>
 					<small>Salle "{{ times[6].html5.room }}"</small>
@@ -202,6 +218,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[6].cloud.live" class="live desktop-only"></div></a>
 					<a ng-show="times[6].cloud.video" href="http://www.youtube.com/watch?v={{times[6].cloud.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[6].cloud.slides" href="{{times[6].cloud.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[6].cloud"></devfeststore><a href="#/sessions?sessionId={{times[6].cloud.id}}">{{ times[6].cloud.label }}</a></h5>
 					<small>Par {{ times[6].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[6].cloud.room }}"</small>
@@ -210,6 +227,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[6].decouverte.live" class="live desktop-only"></div></a>
 					<a ng-show="times[6].decouverte.video" href="http://www.youtube.com/watch?v={{times[6].decouverte.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[6].decouverte.slides" href="{{times[6].decouverte.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[6].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[6].decouverte.id}}">{{ times[6].decouverte.label }}</a></h5>
 					<small>Par {{ times[6].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[6].decouverte.room }}"</small>
@@ -217,7 +235,9 @@
 			</div>
 		</div>
 		<div class="one sixth calendar-codelab mobile calendar-two-blocks two-up-mobile">
-			<h5><devfeststore session="times[12].codelabs"></devfeststore><a href="#/sessions?sessionId={{times[12].codelabs.id}}">{{ times[12].codelabs.label }}</a></h5>
+			<h5>
+			<a ng-show="times[12].codelabs.slides" href="{{times[12].codelabs.slides}}" target="_blank"><div class="slides"></div></a>
+			<devfeststore session="times[12].codelabs"></devfeststore><a href="#/sessions?sessionId={{times[12].codelabs.id}}">{{ times[12].codelabs.label }}</a></h5>
 			<small>Par {{ times[12].codelabs.speakername }}</small><br>
 			<small>Salle "{{ times[12].codelabs.room }}"</small>
 		</div>
@@ -242,6 +262,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[8].android.live" class="live desktop-only"></div></a>
 					<a ng-show="times[8].android.video" href="http://www.youtube.com/watch?v={{times[8].android.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[8].android.slides" href="{{times[8].android.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[8].android"></devfeststore><a href="#/sessions?sessionId={{times[8].android.id}}">{{ times[8].android.label }}</a></h5>
 					<small>Par {{ times[8].android.speakername }}</small><br>
 					<small>Salle "{{ times[8].android.room }}"</small>
@@ -250,6 +271,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[8].html5.live" class="live desktop-only"></div></a>
 					<a ng-show="times[8].html5.video" href="http://www.youtube.com/watch?v={{times[8].html5.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[8].html5.slides" href="{{times[8].html5.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[8].html5"></devfeststore><a href="#/sessions?sessionId={{times[8].html5.id}}">{{ times[8].html5.label }}</a></h5>
 					<small>Par {{ times[8].html5.speakername }}</small><br>
 					<small>Salle "{{ times[8].html5.room }}"</small>
@@ -258,6 +280,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[8].cloud.live" class="live desktop-only"></div></a>
 					<a ng-show="times[8].cloud.video" href="http://www.youtube.com/watch?v={{times[8].cloud.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[8].cloud.slides" href="{{times[8].cloud.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[8].cloud"></devfeststore><a href="#/sessions?sessionId={{times[8].cloud.id}}">{{ times[8].cloud.label }}</a></h5>
 					<small>Par {{ times[8].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[8].cloud.room }}"</small>
@@ -266,6 +289,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[8].decouverte.live" class="live desktop-only"></div></a>
 					<a ng-show="times[8].decouverte.video" href="http://www.youtube.com/watch?v={{times[8].decouverte.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[8].decouverte.slides" href="{{times[8].decouverte.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[8].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[8].decouverte.id}}">{{ times[8].decouverte.label }}</a></h5>
 					<small>Par {{ times[8].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[8].decouverte.room }}"</small>
@@ -282,6 +306,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[9].android.live" class="live desktop-only"></div></a>
 					<a ng-show="times[9].android.video" href="http://www.youtube.com/watch?v={{times[9].android.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[9].android.slides" href="{{times[9].android.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[9].android"></devfeststore><a href="#/sessions?sessionId={{times[9].android.id}}">{{ times[9].android.label }}</a></h5>
 					<small  >Par {{ times[9].android.speakername }}</small><br>
 					<small>Salle "{{ times[9].android.room }}"</small>
@@ -292,6 +317,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[9].html5.live" class="live desktop-only"></div></a>
 					<a ng-show="times[9].html5.video" href="http://www.youtube.com/watch?v={{times[9].html5.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[9].html5.slides" href="{{times[9].html5.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[9].html5"></devfeststore><a href="#/sessions?sessionId={{times[9].html5.id}}">{{ times[9].html5.label }}</a></h5>
 					<small>Par {{ times[9].html5.speakername }}</small><br>
 					<small>Salle "{{ times[9].html5.room }}"</small>
@@ -302,6 +328,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[9].cloud.live" class="live desktop-only"></div></a>
 					<a ng-show="times[9].cloud.video" href="http://www.youtube.com/watch?v={{times[9].cloud.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[9].cloud.slides" href="{{times[9].cloud.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[9].cloud"></devfeststore><a href="#/sessions?sessionId={{times[9].cloud.id}}">{{ times[9].cloud.label }}</a></h5>
 					<small>Par {{ times[9].cloud.speakername }}</small><br>
 					<small>Salle "{{ times[9].cloud.room }}"</small>
@@ -312,6 +339,7 @@
 					<h5>
 					<a href="http://youtube.com/francegdg" target="_blank"><div ng-show="times[9].decouverte.live" class="live desktop-only"></div></a>
 					<a ng-show="times[9].decouverte.video" href="http://www.youtube.com/watch?v={{times[9].decouverte.video}}" target="_blank"><div class="youtube"></div></a>
+					<a ng-show="times[9].decouverte.slides" href="{{times[9].decouverte.slides}}" target="_blank"><div class="slides"></div></a>
 					<devfeststore session="times[9].decouverte"></devfeststore><a href="#/sessions?sessionId={{times[9].decouverte.id}}">{{ times[9].decouverte.label }}</a></h5>
 					<small>Par {{ times[9].decouverte.speakername }}</small><br>
 					<small>Salle "{{ times[9].decouverte.room }}"</small>
@@ -320,7 +348,9 @@
 			</div>
 		</div>
 		<div class="one sixth calendar-codelab mobile calendar-two-blocks two-up-mobile">
-			<h5><devfeststore session="times[13].codelabs"></devfeststore><a href="#/sessions?sessionId={{times[13].codelabs.id}}">{{ times[13].codelabs.label }}</a></h5>
+			<h5>
+			<a ng-show="times[13].codelabs.slides" href="{{times[13].codelabs.slides}}" target="_blank"><div class="slides"></div></a>
+			<devfeststore session="times[13].codelabs"></devfeststore><a href="#/sessions?sessionId={{times[13].codelabs.id}}">{{ times[13].codelabs.label }}</a></h5>
 			<small>Par {{ times[13].codelabs.speakername }}</small><br>
 			<small>Salle "{{ times[13].codelabs.room }}"</small>
 		</div>

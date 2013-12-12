@@ -79,7 +79,7 @@
 			"time" : "S4",
 			"room" : "Bellem",
 			"video" : "tJnYhRfpwwY",
-			"slides_file" : "slides/Getting_Around_With_Google_Maps_Android_API-v2.pdf",
+			"slides" : "slides/Getting_Around_With_Google_Maps_Android_API-v2.pdf",
 			"slides_type" : "file",
 			"description" : "As part of the Google Play services - a platform that offers a better integration with Google products - Google recently released perhaps one of the most frequently requested upgrade: the Google Maps Android API v2. This new framework allows you to embed standard or customized maps directly in your application. Now Google Maps Android API v2 lets you leverage Google's beautiful new vector based maps.<br><br>In this session, we will learn about the new API and features introduced with Google Maps Android API v2 and how to start visualizing information geographically within your applications."		
 		},
@@ -96,7 +96,7 @@
 			"time" : "S5",
 			"room" : "Graslin",
 			"video" : "WxaGGb9Pct0",
-			"slides_online" : "http://blog.binomed.fr/binomed_docs/Prezs/AndroidNfc/nfc_md.html#/",
+			"slides" : "http://blog.binomed.fr/binomed_docs/Prezs/AndroidNfc/nfc_md.html#/",
 			"slides_type" : "online",
 			"description" : "Le NFC tout le monde commence à en entendre parler mais que se cache-t-il réellement derrière ces 3 lettres ? Cette technologie envahit petit à petit nos smartphones et nous sommes en droit de nous poser un certain nombre de questions concernant son intégration, son développement... Nous verrons donc dans un premier temps la norme NFC afin de mieux appréhender la technologie et de comprendre ce qu'il y a derrière ce trigramme. Nous étudierons des cas d'usages possibles car il n'y a pas que le paiement qui peut être fait en NFC ;) Nous nous attarderons ensuite sur l'aspect : compatibilité matériel, version Android car dire que l'on fait du NFC ne fait pas tout. Nous terminerons par une présentation de son implémentation dans le framework Android.<br>Cette présentation sera ponctuée de démos pour rendre la présentation plus interactive."
 		},
@@ -259,7 +259,7 @@
 			"time" : "S2",
 			"room" : "Bretagne",
 			"video" : "y9RjbuYZN0o",
-			"slides" : "slides/DevFest_2013_-_APISpark_-_ Investir_sur_son_API_Web_v5.pdf",
+			"slides" : "slides/DevFest_2013_-_APISpark_-_Investir_sur_son_API_Web_v5.pdf",
 			"slides_type" : "file",
 			"description" : "Nous explorerons dans cette cession les enjeux des API Web. Plus qu'un endpoint REST et qu'un point d'échange d'informations vers des applications mobiles, une API Web représente un enjeu stratégique qui permet de répondre aux enjeux du multi-canal et du cross device. Que vous soyez développeur d'une application, d'un site marchand, ou bien d'un service en ligne, une Web API accompagne ainsi votre stratégie commerciale et requiert une approche technique adaptée en terme de cycle de vie (versions, documentation, exploitation..). Bref, bien concevoir et gérer sa Web API c'est au moins aussi important et bien plus critique que choisir le CMS adapté à son site Web. <br>Les API Web c'est aussi une superbe opportunité pour se placer en tant que dev/ops et architecte, dans une nouvelle posture au sein de son organisation. Nous illustrerons notre propos avec les solutions proposées par la plateforme APISpark bâtie par les développeurs du framework Restlet.<br><br>Agenda :<br><ul><li>Rappels REST : Hébergements Restlet sur AppEngine et Android</li><li>Enjeux du Web et de la mobilité, du multi-canal, multi-device, Importance de l'API Web, Zoom sur APISpark</li></ul>"
 		},
