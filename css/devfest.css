@@ -543,8 +543,12 @@ Tentative 2 colonnes
   background-image: url(../images/devfest/live.png);
 }
 
-.live.left{
-  float:rleft;  
+.slides{
+  float:right;
+  margin-left:10px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/devfest/slides.png);
 }
 
 .youtube{
