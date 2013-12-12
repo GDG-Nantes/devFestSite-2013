@@ -25,6 +25,7 @@ module.exports = function (grunt) {
         font:     'font',
         images:   'images',
         json:     'json',
+        slides:     'slides',
         manifest: 'devfest_appcache.manifest',
         sitemap:  'sitemap.xml',
         robots:   'robots.txt',
@@ -45,6 +46,7 @@ module.exports = function (grunt) {
         font:     'prod/font',
         images:   'prod/images',
         json:     'prod/json',
+        slides:     'prod/slides',
         manifest: 'prod/devfest_appcache.manifest',
         sitemap:  'prod/sitemap.xml',
         robots:   'prod/robots.txt',
@@ -73,6 +75,7 @@ module.exports = function (grunt) {
           { expand: true, cwd: '<%= src.assets.font %>', src: ['**'], dest: '<%= dest.assets.font %>' },
           { expand: true, cwd: '<%= src.assets.images %>', src: ['**'], dest: '<%= dest.assets.images %>' }, // (ne copier que les images non spritees)
           { expand: true, cwd: '<%= src.assets.json %>', src: ['**/*.json'], dest: '<%= dest.assets.json %>' },
+          { expand: true, cwd: '<%= src.assets.slides %>', src: ['**/*.json'], dest: '<%= dest.assets.slides %>' },
           { src: '<%= src.assets.groundwork_css_ie %>', dest: '<%= dest.assets.groundwork_css_ie %>' },
           { src: '<%= src.assets.fontawesome_css_ie %>', dest: '<%= dest.assets.fontawesome_css_ie %>' },
           { src: '<%= src.assets.manifest %>', dest: '<%= dest.assets.manifest %>' },

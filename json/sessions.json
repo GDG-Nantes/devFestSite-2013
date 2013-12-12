@@ -62,6 +62,7 @@
 			"time" : "S3",
 			"room" : "Titan",
 			"video" : "FWwvRJRjQpo",
+			"slides_gdoc" : "http://bit.ly/andbigfails",
 			"description" : "Outlook.com, Facebook Home, ... Tous ces noms vous disent surement quelque chose, ils sont assez célèbres et semblent bien gérés par les multinationales qui les possèdent. Ils n'ont en fait pas vraiment rencontré le succès et la reconnaissance des utilisateurs du Google PlayStore.<br>Durant cette présentation, je vous raconterai les péripéties de plusieurs entreprises sur le Play Store, pour les analyser, comprendre pourquoi elles-n'ont pas réussi a satisfaire leurs utilisateurs, et apprendre de leurs erreurs, pour ne pas vivre la même expérience."
 		},
 		{
@@ -77,6 +78,7 @@
 			"time" : "S4",
 			"room" : "Bellem",
 			"video" : "tJnYhRfpwwY",
+			"slides_file" : "Getting_Around_With_Google_Maps_Android_API-v2.pdf",
 			"description" : "As part of the Google Play services - a platform that offers a better integration with Google products - Google recently released perhaps one of the most frequently requested upgrade: the Google Maps Android API v2. This new framework allows you to embed standard or customized maps directly in your application. Now Google Maps Android API v2 lets you leverage Google's beautiful new vector based maps.<br><br>In this session, we will learn about the new API and features introduced with Google Maps Android API v2 and how to start visualizing information geographically within your applications."		
 		},
 		{
@@ -92,6 +94,7 @@
 			"time" : "S5",
 			"room" : "Graslin",
 			"video" : "WxaGGb9Pct0",
+			"slides_online" : "http://blog.binomed.fr/binomed_docs/Prezs/AndroidNfc/nfc_md.html#/",
 			"description" : "Le NFC tout le monde commence à en entendre parler mais que se cache-t-il réellement derrière ces 3 lettres ? Cette technologie envahit petit à petit nos smartphones et nous sommes en droit de nous poser un certain nombre de questions concernant son intégration, son développement... Nous verrons donc dans un premier temps la norme NFC afin de mieux appréhender la technologie et de comprendre ce qu'il y a derrière ce trigramme. Nous étudierons des cas d'usages possibles car il n'y a pas que le paiement qui peut être fait en NFC ;) Nous nous attarderons ensuite sur l'aspect : compatibilité matériel, version Android car dire que l'on fait du NFC ne fait pas tout. Nous terminerons par une présentation de son implémentation dans le framework Android.<br>Cette présentation sera ponctuée de démos pour rendre la présentation plus interactive."
 		},
 		{
@@ -138,6 +141,7 @@
 			"time" : "S2",
 			"room" : "Bellem",
 			"video" : "K4WPo_IN1Ug",
+			"slides_gdoc" : "https://docs.google.com/presentation/d/1rX9es_zqRlmPpqpCNnrEdG2jXGG9OvUxy_M9obFMe_I/pub?start=false&loop=false&delayms=3000",
 			"description" : "Aujourd’hui pour créer une application web dynamique, on a le choix entre une multitude de framework JavaScript, mais aussi une multitude de langage qui compile vers JavaScript. Il est même possible de combiner ces technologies mais parfois avec un certain manque de cohérence.<br>Aujourd’hui, Dart approche de la v1 et propose déjà des solutions pour créer une application web structurée et performante. Le langage s’annonce déjà précurseur en embarquant certains standards du web en cours d’implémentation par les navigateurs modernes.<br>Nous ferons le tour de langage et des frameworks Dart grâce à un live-coding d’une application, fil conducteur de cette présentation."
 		},
 		{
@@ -167,6 +171,7 @@
 			"time" : "S3",
 			"room" : "Bellem",
 			"video" : "x1xjNXrOBL8",
+			"slides_online" : "http://simpl.info/rtc",
 			"description" : "WebRTC implements open standards for realtime, plugin-free video, audio and data communication. The core WebRTC APIs – getUserMedia, RTCPeerConnection and DataChannel – have now been implemented across Chrome and Firefox. In this session, we show you how to get started with building a WebRTC app: - what’s a MediaStream (aka getUserMedia) and how can I use it? - resolution constraints - signalling: what is it and how can I set it up? - servers: what do I need? - RTCPeerConnection: WebRTC’s most powerful API - RTCDataChannel: realtime communication of arbitrary data - integrating WebRTC with Web Audio - interoperability - security During the session, we talk through code examples, live demos and production apps."
 		},
 		{
@@ -197,6 +202,7 @@
 			"time" : "S5",
 			"room" : "Bellem",
 			"video" : "BpF8MWBFHso",
+			"slides_online" : "http://thomasbelin.fr/talks/devfest-2013_doyoubuzz-angularjs/index.html",
 			"description" : "Si le front de doyoubuzz a largement fait ses preuves depuis plus de 5 ans, il était grand temps de lui offrir une seconde jeunesse. C'est l'un des objectifs de la refonte complète de l'application qui a lieu en ce moment même.<br>Ce talk expliquera donc comment DoYouBuzz est passé d'un front basé uniquement sur jQuery à une véritable application MVC grâce à AngularJS."
 		},
 		{
@@ -243,6 +249,7 @@
 			"time" : "S2",
 			"room" : "Bretagne",
 			"video" : "y9RjbuYZN0o",
+			"slides_file" : "DevFest_2013_-_APISpark_-_ Investir_sur_son_API_Web_v5.pdf",
 			"description" : "Nous explorerons dans cette cession les enjeux des API Web. Plus qu'un endpoint REST et qu'un point d'échange d'informations vers des applications mobiles, une API Web représente un enjeu stratégique qui permet de répondre aux enjeux du multi-canal et du cross device. Que vous soyez développeur d'une application, d'un site marchand, ou bien d'un service en ligne, une Web API accompagne ainsi votre stratégie commerciale et requiert une approche technique adaptée en terme de cycle de vie (versions, documentation, exploitation..). Bref, bien concevoir et gérer sa Web API c'est au moins aussi important et bien plus critique que choisir le CMS adapté à son site Web. <br>Les API Web c'est aussi une superbe opportunité pour se placer en tant que dev/ops et architecte, dans une nouvelle posture au sein de son organisation. Nous illustrerons notre propos avec les solutions proposées par la plateforme APISpark bâtie par les développeurs du framework Restlet.<br><br>Agenda :<br><ul><li>Rappels REST : Hébergements Restlet sur AppEngine et Android</li><li>Enjeux du Web et de la mobilité, du multi-canal, multi-device, Importance de l'API Web, Zoom sur APISpark</li></ul>"
 		},
 		{
@@ -274,6 +281,7 @@
 			"time" : "S4",
 			"room" : "Titan",
 			"video" : "oK9bmg5O2n0",
+			"slides_gdoc" : "https://docs.google.com/presentation/d/1wv5gGH4lyyCYGge_cLwG9pmD7SaaeH4ijpReiE_rVjQ/",
 			"description" : "La conférence présentera d'abord les principes et les concepts de la plateforme de Cloud de Google. Ensuite, Jérôme expliquera en quoi ce service est révolutionnaire pour une startup. Enfin, des exemples précis et pratiques en Java seront détaillés pour exposer les bonnes pratiques, les pièges a éviter, etc. "
 		},
 		{
@@ -321,6 +329,7 @@
 			"time" : "S1",
 			"room" : "Graslin",
 			"video" : "eNgHenj-sT0",
+			"slides_online" : "http://xseignard.github.io/devfest2013",
 			"description" : "Communiquer entre un Arduino et Chrome c'est possible! Et cela directement grace à la chrome serial API!<br>Venez assister à la session afin de voir un live coding d'une extension Chrome qui discute directement avec le monde réel grace à Arduino!<br><br>Au programme, un peu d'électronique, du JS et du fun!"
 		},
 		{
@@ -382,6 +391,7 @@
 			"time" : "S5",
 			"room" : "Titan",
 			"video" : "neYmXPe7aK0",
+			"slides_file" : "Bakasable_DevFest_2013.pdf",
 			"description" : "Le but de cette session va être d'expliquer le rôle d'un designer dans le processus de développement d'une application mobile.<br>De la réflexion autour du concept de navigation jusqu'à la livraison des éléments graphiques pour l'intégration, l'objectif va être d'expliquer aux développeurs présents les méthodes de design qui rendront leur application encore plus pertinente et aboutie."
 		},
 		{
@@ -410,6 +420,7 @@
 			"level" : "201",
 			"time" : "S3-4",
 			"room" : "Les Machines",
+			"slides_online" : "http://tchatel.github.io/devfest-slides/index.html"
 			"description" : "AngularJS permet de créer très facilement des vues et des formulaires travaillant sur notre modèle de données. Mais comment intégrer des composants externes dans notre application ? C'est justement l'objet de ce code-lab, où l'on va créer une directive AngularJS permettant d'insérer une carte Google Maps.<br><br>Nous y apprendrons :<br><ul><li>à créer une directive utilisable comme attribut ou balise HTML</li><li>à y inclure le code de manipulation de l'API Google Maps</li><li>à établir une liaison bidirectionnelle entre le composant et les données de notre application</li></ul>"
 		},
 		{
