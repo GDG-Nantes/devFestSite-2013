@@ -547,6 +547,14 @@ Tentative 2 colonnes
   float:rleft;  
 }
 
+.youtube{
+  float:right;
+  margin-left:10px;
+  width: 30px;
+  height: 20px;
+  background-image: url(../images/devfest/youtube.png);
+}
+
 /**
 * Team
 */
