@@ -187,6 +187,7 @@
 			"time" : "S4",
 			"room" : "Graslin",
 			"video" : "RXrREqNp_PQ",
+			"slides_gdoc" : "https://docs.google.com/presentation/d/1cfp_75Xf2R7_eTNYbVDMYs5XAbGSNKV83fNQg3wqQUo/pub?start=false&loop=false&delayms=3000",
 			"description" : "Les Chrome Apps sont des applications écrites avec des technos web mais avec des capacités plus puissantes que sur le web. Elles s'exécutent dans un environnement sécurisé, ressemblent à s'y méprendre aux applications natives, sont multi-plateformes et fonctionnent hors-ligne par défaut."
 		},
 		{
