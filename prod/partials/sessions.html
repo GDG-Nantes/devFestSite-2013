@@ -64,6 +64,12 @@
                 <div ng-repeat="speaker in sessionSpeakers" class="speaker pull-left {{speaker.id}}" ></div>
             </div>
 			<div ng-bind-html-unsafe="session.description" class="padded"></div>
+			<!-- Youtube link -->
+            <div ng-show="session.video" class="pull-right speaker-photos">
+                <div class="pull-right" >
+					<iframe width="400" height="230" src="//www.youtube.com/embed/{{session.video}}" frameborder="0" allowfullscreen></iframe>
+				</div>
+            </div>
 		</div>
 	</div>
 </div>
