@@ -3277,6 +3277,14 @@ ul.icons li [class*=" icon-"] {
   content: "\f030";
 }
 
+.icon-youtube:before {
+  content: "\f167";
+}
+
+.icon-youtube-play:before {
+  content: "\f16a";
+}
+
 .icon-font:before {
   content: "\f031";
 }
@@ -3941,8 +3949,16 @@ ul.icons li [class*=" icon-"] {
   content: "\f0ed";
 }
 
-.icon-cloud-upload:before {
-  content: "\f0ee";
+.icon-file-download:before {
+  content: "\f15b";
+}
+
+.icon-cloud-download:before {
+  content: "\f0ed";
+}
+
+.icon-paperclip:before {
+  content: "\f0c6";
 }
 
 .icon-user-md:before {
