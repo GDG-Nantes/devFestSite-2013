@@ -420,7 +420,7 @@
 			"level" : "201",
 			"time" : "S3-4",
 			"room" : "Les Machines",
-			"slides_online" : "http://tchatel.github.io/devfest-slides/index.html"
+			"slides_online" : "http://tchatel.github.io/devfest-slides/index.html",
 			"description" : "AngularJS permet de créer très facilement des vues et des formulaires travaillant sur notre modèle de données. Mais comment intégrer des composants externes dans notre application ? C'est justement l'objet de ce code-lab, où l'on va créer une directive AngularJS permettant d'insérer une carte Google Maps.<br><br>Nous y apprendrons :<br><ul><li>à créer une directive utilisable comme attribut ou balise HTML</li><li>à y inclure le code de manipulation de l'API Google Maps</li><li>à établir une liaison bidirectionnelle entre le composant et les données de notre application</li></ul>"
 		},
 		{
