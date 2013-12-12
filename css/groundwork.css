@@ -3277,6 +3277,14 @@ ul.icons li [class*=" icon-"] {
   content: "\f030";
 }
 
+.icon-youtube:before {
+  content: "\f167";
+}
+
+.icon-youtube-play:before {
+  content: "\f16a";
+}
+
 .icon-font:before {
   content: "\f031";
 }
